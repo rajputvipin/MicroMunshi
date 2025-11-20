@@ -514,3 +514,16 @@
                 opacity: 1;
             }
         }
+
+
+
+/* mobile */
+@media (max-width: 768px) {
+    .navbar-brand span {
+        display: none;
+    }
+    .logo{
+        height: 60;
+        width: 80px;
+    }
+}
